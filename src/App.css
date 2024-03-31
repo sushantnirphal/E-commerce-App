@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+figure{
+  border: 2px solid #ccc;
+  width: 350px;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+
+form{
+  width: 450px;
+  border: 2px solid #ccc;
+  padding: 1rem;
+  margin: 10px auto;
+}
+input,label{
+  font-size: 1.2rem;
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
